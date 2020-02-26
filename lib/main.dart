@@ -4,7 +4,6 @@ import 'package:firebase/firebase.dart' as Firebase;
 
 Future<void> main() async {
   if (Firebase.apps.isEmpty) {
-    print(Firebase.apps);
     Firebase.initializeApp(
       apiKey: 'AIzaSyAseqVYOb2bombg-M-r0Z55B56No_BK_5w',
       authDomain: 'grievboard-d1fc0.firebaseapp.com',
